@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Login</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form id="loginForm" aria-label="Login Form" autocomplete="on">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required aria-required="true" aria-describedby="usernameHelp" autocomplete="username">
+                <small id="usernameHelp" class="sr-only">Enter your username</small>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required aria-required="true" aria-describedby="passwordHelp" autocomplete="current-password">
+                <small id="passwordHelp" class="sr-only">Enter your password</small>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Syllabus Tracker</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

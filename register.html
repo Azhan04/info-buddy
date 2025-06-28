@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Register</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form id="registerForm" aria-label="Registration Form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required aria-required="true" aria-describedby="usernameHelp">
+                <small id="usernameHelp" class="sr-only">Enter your desired username</small>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required aria-required="true" aria-describedby="passwordHelp">
+                <small id="passwordHelp" class="sr-only">Enter a secure password</small>
+
+                <label for="role">Role:</label>
+                <select id="role" name="role" required aria-required="true">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="admin">Admin</option>
+                </select>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Syllabus Tracker</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

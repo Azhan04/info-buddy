@@ -1,0 +1,43 @@
+<!-- dashboard_student.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Student Dashboard</h1>
+            <button id="logoutButton" class="btn-logout" aria-label="Logout">Logout</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Welcome, Student</h2>
+                <p>This is your personal syllabus Tracker</p>
+                <ul>
+                    <li><a href="syllabus_list.html">View syllabus</a></li>
+                    <li><a href="#">Add course</a></li>
+                    <li><a href="#">View Grades</a></li>
+                </ul>
+            </section>
+            <section id="uploadedFilesStudentSection">
+                <h3>Uploaded Files</h3>
+                <ul id="uploadedFilesStudentList"></ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Syllabus Tracker</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Repeat for dashboard_teacher.html and dashboard_admin.html with appropriate titles and content -->

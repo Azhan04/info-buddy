@@ -1,0 +1,104 @@
+<label for="title">Title:</label>
+                <input type="text" id="title" name="title" required aria-required="true" aria-describedby="titleHelp">
+                <small id="titleHelp" class="sr-only">Enter the title of the syllabus item</small>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required aria-required="true" aria-describedby="descriptionHelp"></textarea>
+                <small id="descriptionHelp" class="sr-only">Enter a description for the syllabus item</small>
+
+                <label for="dueDate">Due Date:</label>
+                <input type="date" id="dueDate" name="dueDate" required aria-required="true" aria-describedby="dueDateHelp">
+                <small id="dueDateHelp" class="sr-only">Select the due date</small>
+
+                <label for="status">Status:</label>
+                <select id="status" name="status" required aria-required="true" aria-describedby="statusHelp">
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <small id="statusHelp" class="sr-only">Select the status</small>
+
+                <button type="submit" class="btn-primary">Add Item</button>
+                <button type="button" class="btn-secondary" onclick="closeAddForm()">Cancel</button>
+            </form>
+=======
+            <form id="addForm" aria-label="Add Syllabus Item Form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required aria-required="true" aria-describedby="titleHelp">
+                <small id="titleHelp" class="sr-only">Enter the title of the syllabus item</small>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required aria-required="true" aria-describedby="descriptionHelp"></textarea>
+                <small id="descriptionHelp" class="sr-only">Enter a description for the syllabus item</small>
+
+                <label for="dueDate">Due Date:</label>
+                <input type="date" id="dueDate" name="dueDate" required aria-required="true" aria-describedby="dueDateHelp">
+                <small id="dueDateHelp" class="sr-only">Select the due date</small>
+
+                <label for="status">Status:</label>
+                <select id="status" name="status" required aria-required="true" aria-describedby="statusHelp">
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <small id="statusHelp" class="sr-only">Select the status</small>
+
+                <label for="pdfFile">Upload PDF:</label>
+                <input type="file" id="pdfFile" name="pdfFile" accept="application/pdf" aria-describedby="pdfFileHelp" />
+                <small id="pdfFileHelp" class="sr-only">Upload a PDF file for the syllabus item</small>
+
+                <button type="submit" class="btn-primary">Add Item</button>
+                <button type="button" class="btn-secondary" onclick="closeAddForm()">Cancel</button>
+            </form>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+            <form id="editForm" aria-label="Edit Syllabus Item Form">
+                <label for="editTitle">Title:</label>
+                <input type="text" id="editTitle" name="editTitle" required aria-required="true" aria-describedby="editTitleHelp">
+                <small id="editTitleHelp" class="sr-only">Edit the title of the syllabus item</small>
+
+                <label for="editDescription">Description:</label>
+                <textarea id="editDescription" name="editDescription" required aria-required="true" aria-describedby="editDescriptionHelp"></textarea>
+                <small id="editDescriptionHelp" class="sr-only">Edit the description for the syllabus item</small>
+
+                <label for="editDueDate">Due Date:</label>
+                <input type="date" id="editDueDate" name="editDueDate" required aria-required="true" aria-describedby="editDueDateHelp">
+                <small id="editDueDateHelp" class="sr-only">Edit the due date</small>
+
+                <label for="editStatus">Status:</label>
+                <select id="editStatus" name="editStatus" required aria-required="true" aria-describedby="editStatusHelp">
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <small id="editStatusHelp" class="sr-only">Edit the status</small>
+
+                <button type="submit" class="btn-primary">Update Item</button>
+                <button type="button" class="btn-secondary" onclick="closeEditForm()">Cancel</button>
+            </form>
+=======
+            <form id="editForm" aria-label="Edit Syllabus Item Form">
+                <label for="editTitle">Title:</label>
+                <input type="text" id="editTitle" name="editTitle" required aria-required="true" aria-describedby="editTitleHelp">
+                <small id="editTitleHelp" class="sr-only">Edit the title of the syllabus item</small>
+
+                <label for="editDescription">Description:</label>
+                <textarea id="editDescription" name="editDescription" required aria-required="true" aria-describedby="editDescriptionHelp"></textarea>
+                <small id="editDescriptionHelp" class="sr-only">Edit the description for the syllabus item</small>
+
+                <label for="editDueDate">Due Date:</label>
+                <input type="date" id="editDueDate" name="editDueDate" required aria-required="true" aria-describedby="editDueDateHelp">
+                <small id="editDueDateHelp" class="sr-only">Edit the due date</small>
+
+                <label for="editStatus">Status:</label>
+                <select id="editStatus" name="editStatus" required aria-required="true" aria-describedby="editStatusHelp">
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <small id="editStatusHelp" class="sr-only">Edit the status</small>
+
+                <label for="editPdfFile">Upload PDF:</label>
+                <input type="file" id="editPdfFile" name="editPdfFile" accept="application/pdf" aria-describedby="editPdfFileHelp" />
+                <small id="editPdfFileHelp" class="sr-only">Upload a PDF file for the syllabus item</small>
+
+                <button type="submit" class="btn-primary">Update Item</button>
+                <button type="button" class="btn-secondary" onclick="closeEditForm()">Cancel</button>
+            </form>
